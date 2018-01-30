@@ -1,0 +1,137 @@
+@font-face {
+	font-family: fontawesome;
+	src: url(../Fonts/fontawesome-webfont.ttf);
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+html, body {
+	height: 100%;
+	width: 100%;
+}
+body {
+	background-color: rgb(72, 49, 74);
+}
+main {
+	width: 1300px;
+	
+ 	padding-top: 108px;
+    margin: auto;
+}
+div {
+	height: 57px;
+	width: 70px;
+	position: relative;
+
+	text-align: center;
+
+	display: table;
+}
+a {
+	height: 100%;
+	width: 100%;
+
+	text-align: center;
+	text-decoration: none;
+
+	display: table;
+
+	color: black;
+}
+rt {
+	display: table;
+
+	padding: 5px 0 0 5px;
+}
+p {
+	font-size: 8px;
+}
+tt {
+	font-size: 6px;
+}
+.noble_gas, 
+.alkali_metal, 
+.no-content, 
+.alkaline_metal, 
+.basic_metal, 
+.semi_metal, 
+.semi, 
+.nonmetal, 
+.halogen, 
+.divansition_metal, 
+.noble_gas, 
+.transition_metal, 
+.lanthanide, 
+.actinide {
+	position: relative;
+	float: left;
+	margin-bottom: 1px;
+    margin-right: 1px;
+}
+.zero-line, 
+.first-line, 
+.second-line, 
+.third-line, 
+.forth-line, 
+.five-line, 
+.six-line, 
+.seven-line, 
+.bottom1, 
+.bottom2 {
+    width: 1275px;
+}
+#no-style {
+    width: 71px;
+
+    z-index: -1;
+
+	color: #34aba1;
+	float: left;
+}
+.first-line #no-style:nth-of-type(3),
+.semi_metal {
+	margin-left: 705px;
+
+}
+.zero-line #no-style:nth-of-type(2) {
+	margin-left: 1120px;
+}
+.bottom1, .bottom2 {
+    margin-left: 10%;
+}
+.bottom1 {
+    margin-top: 2%;
+}
+
+.alkali_metal a {
+	background: radial-gradient(#ffcbaf, #e09d7f);
+}
+.alkaline_metal a {
+	background: radial-gradient(#dfe09d, #beba47);
+}
+.divansition_metal a {
+	background: radial-gradient(#acf9a8, #8fbb8f);
+}
+.basic_metal a {
+	background: radial-gradient(#fdb7cf, #d4969f);
+}
+.semi a,
+.semi_metal a {
+	background: radial-gradient(#ace9ea, #6ec2bb);
+}
+.nonmetal a {
+	background: radial-gradient(#adacec, #7a7dd3);
+}
+.halogen a {
+	background: radial-gradient(#ffe1a0, #e3bc62);	
+}
+.noble_gas a {
+	background: radial-gradient(#9cd492, #4aba84);
+}
+.lanthanide a {
+	background: radial-gradient(#e5aad7, #d175c3);
+}
+.actinide a {
+	background: radial-gradient(#ccb28d, #c99456);
+}

@@ -1,0 +1,47 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+html, body, main, object {
+	width: 100%;
+	height: 100%;
+}
+body {
+	position: relative;
+	overflow: hidden;
+}
+header {
+	height: 64px;
+	width: 100%;
+
+	position: fixed;
+
+    font-family: Cursive, Sans-serif;
+    background-color: rgba(225, 225, 225, 0.19);}
+a { 
+	color: #ebf4fa;
+	font-size: 18px;
+	text-decoration: none;
+
+    padding: 19px 20px;
+}
+a:hover {
+	color: #206ba4;
+
+	background-color: #ebf4fa;
+}
+header > menu {
+	position: absolute;
+    top: 0;
+    right: 25px;
+    display: table;
+    margin: auto;
+}
+menuitem {
+	position: relative;
+
+	text-align: center;
+
+	display: inline-block;
+	padding: 21px 20px 0 0;
+}
